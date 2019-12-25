@@ -1,0 +1,78 @@
+<p><a href="#" class="run">Run</a></p>
+<div id="box">
+</div><br>
+<h2 class="tlt-my" style="visibility: hidden;">технічна підтримка</h2>
+
+
+
+<div class="card-action">
+    <a href="#">This is a link</a>
+    <a href="#">This is a link</a>
+  </div>
+
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <ul id="slide-out" class="sidenav sidenav-fixed nav-style">
+    <li><a href="#main-block">one</a></li>
+    <li><a href="#instrument-block" id="instrument-block">two</a></li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"></a>
+  <div class="container scrollspy" id="main-block" style="width: 100vw;height: 100vh;">
+
+
+    $('.scrollspy').scrollSpy({
+        scrollOffset: 0
+      });
+
+      $('.instrument').show(1000);
+
+
+
+      #link-contact {
+        text-align: center;
+        font-family: 'Russo One', sans-serif; 
+        font-size: 150%;
+        color: teal;
+        opacity: 1.0;
+      }
+
+
+      onStart:function(){
+        console.log("your scroll")
+        scrollHandler()
+      }
+
+
+
+      $('body').bind('mousewheel', function(e){ if(e.originalEvent.wheelDelta < 0) {
+        //scroll down 
+        var el = $('#link-one');
+        var dest = el.attr('class')
+
+        if(dest !== undefined && dest !== 'mPS2id-highlight-first' && dest !== '') { // проверяем существование
+          scrollHandlerTwo();
+      }
+      return false;
+       }else {
+           //scroll up 
+           var el = $('#link-two');
+           var dest = el.attr('class')
+   
+           if(dest !== undefined && dest !== 'mPS2id-highlight-first' && dest !== '') { // проверяем существование
+             scrollHandlerOne();
+             
+         } return false;
+        }
+        return false; });

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Wise City Technology</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Seymour+One&display=swap" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body onload="init();">
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="row">
+      <div class="col s4 l4"><div class="screen-instance"></div><div class="screen-instance-false"></div></div>
+    <div class="col s2 l2" id="link"><a id="link-one" href="#main-block" rel='m_PageScroll2id'>Головна</a></div>
+    <div class="col s2 l2" id="link"><a id="link-two" href="#instrument-block" rel='m_PageScroll2id'>Наші проекти</a></div>
+    <div class="col s4 l4 right-align"><a class="modal-trigger" id="link-contact" href="#modal1">Контакти</a></div>
+  </div>
+  </div>
+
+    <div class="section" id="main-block" style="width: 100vw;height: 100vh;">
+
+      <!--   Icon Section   -->
+      <div class="row center-align">
+        <div class="col s2 m2">
+
+          <div id="animation_container" style="background-color:rgba(255, 255, 255, 0.00); width:371px; height:186px">
+            <canvas id="canvas" width="371" height="186" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 0.00);"></canvas>
+            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:371px; height:186px; position: absolute; left: 0px; top: 0px; display: block;">
+            </div>
+          </div>
+
+        </div>
+        <div class="col s2 m2"></div>
+        <div class="col s4 m4" id="txt-anim">
+          <h1 class="tlt">Wise City</h1>
+          <h1 class="tlt tlt-two"><br> Technology</h1><br>
+          <div class="col s12 m12 center-align"><h4 class="supp">ТЕХНІЧНА ПІДТРИМКА З НАМИ ЦЕ:</h4></div>
+        </div>
+        
+      </div>
+
+    
+
+          <div class="row" style="margin-bottom: 60px;">
+            
+
+        <div class="col s1 m1">  
+          </div>
+        <div class="col s2 m2 instrument" id="imgf" style="margin-bottom: 60px;">
+          <div class="row">
+            <div class="col s12 m12" style="margin-top: 100px;">
+              <div class="card blue-grey darken-1" style="height: 170px;">
+                <div class="card-content white-text">
+                  <span class="card-title">Соціальні мережі</span>
+                  <p>Ведення груп у соціальніх мережах </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s2 m2 instrument" id="imgmail" style="margin-bottom: 60px;">
+          <div class="row">
+            <div class="col s12 m12" style="margin-top: 100px;">
+              <div class="card blue-grey darken-1" style="height: 170px;">
+                <div class="card-content white-text">
+                  <span class="card-title">Обробка пошти</span>
+                  <p>Електронна пошта і досі займає важливе місце у інтернеті</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col s2 m2 instrument" id="imgsetting" style="margin-bottom: 60px;">
+          <div class="row">
+            <div class="col s12 m12" style="margin-top: 100px;">
+              <div class="card blue-grey darken-1" style="height: 170px;">
+                <div class="card-content white-text">
+                  <span class="card-title">DEV-ops</span>
+                  <p>Зручний менеджмент для усієї компанії та для замовника</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s2 m2 instrument" id="imgbot" style="margin-bottom: 60px;">
+          <div class="row">
+            <div class="col s12 m12" style="margin-top: 100px;">
+              <div class="card blue-grey darken-1" style="height: 170px;">
+                <div class="card-content white-text">
+                  <span class="card-title">Чат боти</span>
+                  <p>Вміє надати відповідь на типові запитання, та передати важиліви дані</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s2 m2 instrument" id="imgsound" style="margin-bottom: 60px;">
+          <div class="row">
+            <div class="col s12 m12" style="margin-top: 100px;">
+              <div class="card blue-grey darken-1" style="height: 170px;">
+                <div class="card-content white-text">
+                  <span class="card-title">Вхідні дзвінки</span>
+                  <p>Телефонні дзвінки, напевно найзручіший спосіб поспілкуватись</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s1 m1"></div>
+        </div>
+
+  </div>
+
+
+
+
+
+    <div class="section" style="width: 100vw;height: 100vh;">
+      <div class="row center-align">
+        <div class="col s12 m12 carouseli">
+
+          <div class="carousel scrollspy" id="instrument-block">
+            <a class="carousel-item" href="#one!">
+              <div class="card-panel hoverable">
+                <div class="card-content white-text">
+                  <span class="card-title">Osvita</span>
+                  <p>Система електронного запису до ЗДО
+                     система створена для забезпечення 
+                      ефективної роботи закладів дошкільної освіти Києва
+                  </p>
+                </div>
+                
+              </div></a>
+            <a class="carousel-item" href="#two!">
+                <div class="card-panel hoverable">
+                    <div class="card-content white-text">
+                      <span class="card-title">KYIVAPP</span>
+                      <p>Kyiv Smart City був створений для зручного користування міськими сервісами містянами та гостями м. Київ.</p>
+                    </div>
+                  </div>
+            </a>
+            <a class="carousel-item" href="#three!">
+                <div class="card-panel hoverable">
+                    <div class="card-content white-text">
+                      <span class="card-title">Громадський бюджет</span>
+                      <p>Будь-який житель міста може подати проект, пов’язаний з покращенням життя в місті, взяти участь у конкурсі</p>
+                    </div>
+                  </div>
+            </a>
+            <a class="carousel-item" href="#four!">
+              <div class="card-panel hoverable">
+                <div class="card-content white-text">
+                  <span class="card-title">Особистий кабінет киянина</span>
+                  <p>Це online сервіс, який дозволяє користувачу отримати зручний доступ до послуг та сервісів</p>
+                </div>
+              </div></a>
+            <a class="carousel-item" href="#five!">
+                <div class="card-panel hoverable">
+                    <div class="card-content white-text">
+                      <span class="card-title">Реєстр територіальної громади міста Києва</span>
+                      <p>Система призначена для забезпечення органів реєстрації, на які покладені функції реєстрації </p>
+                    </div>
+                  </div>
+            </a>
+            <a class="carousel-item" href="#six!">
+                <div class="card-panel hoverable">
+                    <div class="card-content white-text">
+                      <span class="card-title">Реєстр домашніх тварин</span>
+                      <p>Система забезпечує можливість реєстрації домашніх тварин громадянами.</p>
+                    </div>
+                  </div>
+            </a>
+            <a class="carousel-item" href="#seven!">
+                <div class="card-panel hoverable">
+                    <div class="card-content white-text">
+                      <span class="card-title">Видатні Кияни</span>
+                      <p>Виконано для систематизації та збереження наявних даних за видатних осіб міста Києва, що зробили вагомий внесок у культурний, соціальний,</p>
+                    </div>
+                  </div>
+            </a>
+          </div>
+
+
+        </div></div>
+    </div></div>
+
+
+
+
+  <!--  Scripts-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/jschr/textillate/master/assets/jquery.lettering.js'></script>
+<script src='https://cdn.rawgit.com/jschr/textillate/master/jquery.textillate.js'></script>
+<script  src="./script.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="./js/jquery.malihu.PageScroll2id.js"></script>
+  <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+  <script src="o.js"></script>
+  <script src="./canvas.js"></script>
+  </body>
+</html>
