@@ -7,7 +7,6 @@ function logoImageIn() {
     easing: "easein",
   }, 500, function() {
     // Animation complete.
-
   });
 }
 
@@ -33,10 +32,7 @@ function logoOut() {
     height: "toggle"
   }, 500, function() {
     // Animation complete.
-    
   });
-  
-
 }
 
 
