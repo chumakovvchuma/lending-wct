@@ -104,9 +104,29 @@ $('.carousel-item').on('', function () {
   $('#project-title').text(dataItem);
 });
 
+$('#aboutOne').on('mouseenter', function () {
+  $('#aboutOne').css( "background", "green");
+});
 
+$('#aboutTwo').on('mouseenter', function () {
+  $('#aboutTwo').css( "background", "green");
+});
 
+$('#aboutThree').on('mouseenter', function () {
+  $('#aboutThree').css( "background", "green");
+});
 
+$('#aboutOne').on('mouseleave', function () {
+  $('#aboutOne').css( "background", "none");
+});
+
+$('#aboutTwo').on('mouseleave', function () {
+  $('#aboutTwo').css( "background", "none");
+});
+
+$('#aboutThree').on('mouseleave', function () {
+  $('#aboutThree').css( "background", "none");
+});
 // $('body').on('wheel', function (event) {
 //   event.preventDefault()
 //   var wheel = this.wheel;
