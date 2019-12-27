@@ -106,27 +106,36 @@ $('.carousel-item').on('', function () {
 
 $('#aboutOne').on('mouseenter', function () {
   $('#aboutOne').css( "background", "green");
+  $('#contentAboutOne').css( "visibility", "visible");
 });
 
 $('#aboutTwo').on('mouseenter', function () {
   $('#aboutTwo').css( "background", "green");
+  $('#contentAboutTwo').css( "visibility", "visible");
 });
 
 $('#aboutThree').on('mouseenter', function () {
   $('#aboutThree').css( "background", "green");
+  $('#contentAboutThree').css( "visibility", "visible");
 });
 
 $('#aboutOne').on('mouseleave', function () {
   $('#aboutOne').css( "background", "none");
+  $('#contentAboutOne').css( "visibility", "hidden");
 });
 
 $('#aboutTwo').on('mouseleave', function () {
   $('#aboutTwo').css( "background", "none");
+  $('#contentAboutTwo').css( "visibility", "hidden");
 });
 
 $('#aboutThree').on('mouseleave', function () {
   $('#aboutThree').css( "background", "none");
+  $('#contentAboutThree').css( "visibility", "hidden");
 });
+
+
+
 // $('body').on('wheel', function (event) {
 //   event.preventDefault()
 //   var wheel = this.wheel;
