@@ -97,6 +97,13 @@ $(".run").click(function () {
 });
 
 
+$('.carousel-item.active').data('title')
+
+$('.carousel-item').on('', function () {
+  var dataItem = $('.carousel-item.active').data('title');
+  $('#project-title').text(dataItem);
+});
+
 
 
 
