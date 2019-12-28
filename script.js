@@ -154,6 +154,7 @@ $('#aboutOne').on('mouseleave', function () {
 $('#aboutTwo').on('mouseenter', function () {
   $('#contentAboutOne').text('22222222222222222tcuycutciytciytcyitciytcityctiyciytcitycityhjdbub uehbru3br3fbj');
   $('#aboutTwo').css( "background", "green");
+  $('#aboutTwo').css( "opacity", "0.6");
   $('#contentAboutOne').css( "visibility", "visible");
 });
 
